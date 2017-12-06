@@ -5,7 +5,7 @@ interface User {
 }
 
 function profile(user: User) : string {
-  return `Welcome, ${user.firstName} ${user.lastName}`;
+  return `Welcome, ${user.firstName} ${user.lastName}. Your email is ${user.email}`;
 }
 
 var realUser = {
